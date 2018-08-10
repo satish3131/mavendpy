@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.2.RELEASE</version>
+        <version>1.2.1.RELEASE</version>
     </parent>
 
     <properties>
@@ -87,9 +87,9 @@
         </plugins>
     </build>
 <distributionManagement>
-  <repository>
-    <id>vasu1</id>
-    <url>http://ec2-18-206-124-214.compute-1.amazonaws.com:8081/nexus/content/repositories/vasu1</url>
-  </repository>
+  <snapshotRepository>
+    <id>vasu</id>
+    <url>http://ec2-18-206-124-214.compute-1.amazonaws.com:8081/nexus/content/repositories/vasu</url>
+  </snapshotRepository>
 </distributionManagement>
 </project>
