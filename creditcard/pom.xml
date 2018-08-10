@@ -91,5 +91,10 @@
     <id>vasu</id>
     <url>http://ec2-18-206-124-214.compute-1.amazonaws.com:8081/nexus/content/repositories/vasu</url>
   </snapshotRepository>
+    <distributionManagement>
+  <repository>
+    <id>vasu1</id>
+    <url>http://ec2-18-206-124-214.compute-1.amazonaws.com:8081/nexus/content/repositories/vasu1</url>
+  </repository>
 </distributionManagement>
 </project>
